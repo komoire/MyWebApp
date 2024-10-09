@@ -60,6 +60,5 @@ License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Contact
-Komoire Ashiraf - @KomoireAshiraf - [LinkedIn Profile]
-Project Link: https://github.com/KomoireAshiraf/my-web-app
-
+- GitHub: [Komoire Ashiraf](https://github.com/yourusername)
+- X (formerly Twitter): [@KomoireAshiraf](https://twitter.com/KomoireAshiraf)
