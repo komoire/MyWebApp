@@ -4,13 +4,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Navigation Bar */
 nav {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -21,27 +28,48 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #555;
+    border-radius: 4px;
+    outline: none;
 }
 
 /* Main Content */
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
 }
 
 /* Footer */
@@ -49,37 +77,72 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 14px;
 }
 
 /* Form Styles */
 form {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-form label, form input, form button {
-    margin-bottom: 10px;
+form label {
+    font-weight: bold;
 }
 
 form input {
-    padding: 8px;
+    padding: 10px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    border-color: #28a745;
+    outline: none;
 }
 
 form button {
-    padding: 10px;
+    padding: 12px;
     background-color: #28a745;
     color: white;
+    font-size: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-form button:hover {
+form button:hover,
+form button:focus {
     background-color: #218838;
+    outline: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
