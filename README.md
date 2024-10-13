@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SheFund - Crowdfunding for Women and Children
+
+Welcome to the **SheFund** app, a platform dedicated to crowdfunding campaigns supporting women, girls, and children in need. This project was built using React as part of a class assignment to demonstrate the implementation of a functional web application.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Getting-Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies-Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+
+The **SheFund** app allows users to create and support campaigns that aim to improve the lives of women, girls, and children by providing a platform for individuals to donate to causes they believe in. The app focuses on simplicity, accessibility, and transparency in campaign management and contributions.
+
+## Features
+
+- **Campaign Creation:** Users can create campaigns with a description, target amount, and duration.
+- **Contribute to Campaigns:** Supporters can contribute to campaigns through mobile money, making it accessible for all.
+- **Progress Tracking:** View the progress of each campaign towards its funding goal.
+- **Social Sharing:** Share campaigns via social media to reach a broader audience.
+- **Responsive Design:** The app is mobile-friendly, providing a seamless experience on all devices.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow the instructions below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed on your system:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
 
-## Learn More
+1. **Clone the repository**:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/komoireashiraf/SheFund.git
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the project directory**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    cd SheFund
+    ```
 
-## Deploy on Vercel
+3. **Install dependencies**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+1. **Start the development server**:
+
+    ```bash
+    npm start
+    ```
+
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Technologies Used
+
+- **React** - A JavaScript library for building user interfaces
+- **React Router** - For navigation within the app
+- **Bootstrap** - For responsive design and styling
+- **Axios** - To handle HTTP requests for backend communication
+- **Firebase** (or similar) - For database and authentication (optional)
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute, please follow these steps:
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, feel free to contact the project maintainer:
+
+**Email**  
+komoireashiraf@gmail.com 
